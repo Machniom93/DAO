@@ -39,4 +39,8 @@ public class User {
         return password;
     }
 
+    public String toString() {
+        return "Id: " + id + " User name: " + userName + " Email: " + email + " Password: " + password;
+    }
+
 }
